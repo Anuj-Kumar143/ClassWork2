@@ -1,0 +1,49 @@
+/* Block element example */
+h1 {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation using inline-block */
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+/* Sidebar using float */
+.sidebar {
+    width: 25%;
+    background: lightgray;
+    padding: 20px;
+    float: left;
+}
+
+/* Main content also floats */
+.content {
+    width: 70%;
+    background: #f5f5f5;
+    padding: 20px;
+    float: left;
+    margin-left: 5%;
+}
+
+/* Clear the floats */
+.clear {
+    clear: both;
+}
+
+/* Inline example */
+span {
+    display: inline;
+    color: red;
+}
